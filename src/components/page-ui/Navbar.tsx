@@ -1,9 +1,9 @@
 'use client';
-import { GitHubLogoIcon, LinkedInLogoIcon, TwitterLogoIcon, VercelLogoIcon } from '@radix-ui/react-icons';
+import { GitHubLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
 import React, { useState } from 'react';
 
 import { ModeToggle } from '@/components/page-ui/ModeToggle';
-import { HoveredLink, Menu, MenuItem, ProductItem } from '@/components/ui/navbar-menu';
+import { HoveredLink, Menu, MenuItem } from '@/components/ui/navbar-menu';
 import { cn } from '@/lib/utils';
 
 export function Navbar() {
@@ -19,7 +19,7 @@ function NavbarComponent({ className }: { className?: string }) {
     return (
         <div className={cn('fixed top-10 inset-x-0 max-w-2xl mx-auto z-50', className)}>
             <Menu setActive={setActive}>
-            <a href="#landing-page">Home</a>
+                <a href="#landing-page">Home</a>
                 <MenuItem setActive={setActive} active={active} item="Navigation">
                     <div className="flex flex-col space-y-4 text-sm">
                         <HoveredLink href="#experience">Experience</HoveredLink>

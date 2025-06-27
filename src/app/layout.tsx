@@ -8,7 +8,6 @@ import { Space_Grotesk } from 'next/font/google';
 import { Toaster } from '@/components/ui/sonner';
 import { ThemeProvider } from '@/components/ui/theme-provider';
 
-
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
