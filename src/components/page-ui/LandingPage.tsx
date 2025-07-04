@@ -31,7 +31,7 @@ export function LandingPage() {
             </p>
             <TypewriterEffectSmooth words={words} />
             <div className="z-30 flex flex-col items-center space-x-0 space-y-4 md:flex-row md:space-x-4 md:space-y-0">
-                <Link href="#">
+                <Link href="https://drive.google.com/file/d/1de3c591qVALPz43Vas3erxqsnsU9G8mN/view?usp=drive_link">
                     <Button>Download CV</Button>
                 </Link>
                 <Link href="#contact-me">
