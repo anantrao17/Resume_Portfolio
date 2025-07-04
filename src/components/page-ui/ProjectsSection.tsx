@@ -17,16 +17,16 @@ const products = [
     {
         title: 'Resourse Management System',
         link: 'https://github.com/anantrao17',
-        thumbnail: '/projects/mern-memories.png'
-    },
-    {
-        title: 'CodeServer',
-        link: 'https://github.com/anantrao17',
-        thumbnail: '/projects/next-event.png'
+        thumbnail: '/projects/ResourceMangementSystem.jpg'
     },
     {
         title: 'InboxPixel',
-        link: 'https://github.com/anantrao17',
-        thumbnail: '/projects/devspace.png'
+        link: 'https://inboxpixel.netlify.app/',
+        thumbnail: '/projects/InboxPixel.png'
+    },
+    {
+        title: 'Portfolio',
+        link: 'https://portfolioanantrao.netlify.app/',
+        thumbnail: '/projects/Portfolio.png'
     }
 ];
